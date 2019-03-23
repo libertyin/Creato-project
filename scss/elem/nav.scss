@@ -1,0 +1,33 @@
+.nav {
+    @include flex-box;
+    align-items: center;
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        list-style: none;
+        font-size: $font-less;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 45px;
+    }
+
+    &__item a {
+        text-decoration: none;
+        color: $color-white;
+
+        &:hover {
+
+            color: $color-red;  
+        }
+
+    }
+
+}

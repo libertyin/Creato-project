@@ -1,0 +1,21 @@
+.comments {
+    &__text {
+        background-image: url("../img/bg-comments.png");
+        padding: 140px 60px;
+    }
+
+    &__description {
+        position: relative;
+        padding-bottom: 40px;
+        width: 50%;
+        line-height: 30px;
+        font-size: $font-base;
+        font-weight: 600;
+    }
+
+    &__img {
+        position: absolute;
+        top: 115%;
+        left: 52%;
+    }
+}

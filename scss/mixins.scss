@@ -1,0 +1,13 @@
+// Mixins 
+
+@mixin flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin font-base {
+
+    letter-spacing: 0.08em;
+    line-height: 32px;
+    font-size: $font-base;
+}

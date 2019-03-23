@@ -1,0 +1,86 @@
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { font-family: "Raleway", sans-serif; color: #fff; }
+
+img { max-width: 100%; }
+
+.hero { background-color: #020407; }
+
+.grid { width: 1170px; margin: 0 auto; }
+
+.more-btn__link { font-size: 18px; text-decoration: none; color: #fff; font-weight: 700; letter-spacing: 0.04em; }
+
+.more-btn__link:hover { color: #ef4836; }
+
+.nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.nav__list { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.nav__item { list-style: none; font-size: 14px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.nav__item:not(:last-child) { margin-right: 45px; }
+
+.nav__item a { text-decoration: none; color: #fff; }
+
+.nav__item a:hover { color: #ef4836; }
+
+.header { padding: 65px 0px 50px; margin-bottom: 155px; background: url(../img/hero-bg.jpg) top no-repeat; background-size: 100% auto; }
+
+.header__hero { padding: 215px 0px 0px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: top; -ms-flex-align: top; align-items: top; }
+
+.header__video { position: relative; margin-right: auto; }
+
+.header__video-btn { position: absolute; top: 40%; left: 28%; }
+
+.header__text { width: 49%; text-align: left; }
+
+.header__title { padding-bottom: 40px; text-transform: uppercase; font-size: 66px; font-weight: 300; letter-spacing: 0.04em; }
+
+.header__description { letter-spacing: 0.08em; line-height: 32px; font-size: 16px; padding-bottom: 40px; font-weight: 200; color: #fcfcfc; }
+
+.qualities { padding: 150px 0px; }
+
+.qualities__container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.qualities__item { width: 27%; }
+
+.qualities__title { padding-bottom: 30px; font-size: 24px; font-weight: 300; letter-spacing: 0.06em; }
+
+.qualities__description { padding-bottom: 30px; letter-spacing: 0.06em; font-weight: 300; line-height: 26px; }
+
+.qualities__icon { padding-right: 4px; }
+
+.comments__text { background-image: url("../img/bg-comments.png"); padding: 140px 60px; }
+
+.comments__description { position: relative; padding-bottom: 40px; width: 50%; line-height: 30px; font-size: 16px; font-weight: 600; }
+
+.comments__img { position: absolute; top: 115%; left: 52%; }
+
+.portfolio { padding-bottom: 240px; }
+
+.portfolio__grid-item { zoom: 0.7; }
+
+@media all and (max-width: 1140px) { .grid { width: 85%; }
+  .header { margin-bottom: 40px; }
+  .header__hero { padding-top: 120px; }
+  .nav__item:not(:last-child) { margin-right: 30px; }
+  .header__video-video { max-width: 75%; }
+  .header__title { font-size: 46px; }
+  .comments { padding-bottom: 50px; }
+  .comments__img { max-width: 35%; top: 46%; }
+  .qualities { padding: 70px 0px; } }
+
+@media all and (max-width: 767px) { .grid { width: 100%; padding: 15px; }
+  .header { padding: 0px; }
+  .nav__list { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding-right: 15px; }
+  .nav__item a { font-size: 20px; }
+  .header__hero { padding-top: 40px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+  .header__video-video { max-width: 100%; }
+  .header__text { width: 100%; }
+  .header__title { padding-top: 15px; font-size: 40px; }
+  .comments__img { position: static; margin-bottom: 20px; display: block; max-width: 100%; top: 46%; }
+  .comments__text { padding: 20px; }
+  .comments__description { width: 100%; }
+  .qualities__container { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+  .qualities { padding: 0px; }
+  .qualities__item { width: 100%; padding-bottom: 40px; } }

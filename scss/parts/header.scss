@@ -1,0 +1,46 @@
+// header
+.header {
+    padding: 65px 0px 50px; 
+    margin-bottom: 155px;
+    background: url(../img/hero-bg.jpg) top no-repeat;
+    background-size: 100% auto;
+
+    &__hero {
+        padding: 215px 0px 0px;
+        @include flex-box;
+        align-items: top;
+    }
+
+    &__video {
+        position: relative;
+        margin-right: auto;
+    }
+
+
+    &__video-btn {
+        position: absolute;
+        top: 40%;
+        left: 28%;
+    }
+
+    &__text {
+        width: 49%;
+        text-align: left;
+    }
+
+    &__title {
+        padding-bottom: 40px;
+        text-transform: uppercase;
+        font-size: $font-h1;
+        font-weight: 300;
+        letter-spacing: 0.04em;
+    }
+
+    &__description {
+
+        @include font-base;
+        padding-bottom: 40px;
+        font-weight: 200;
+        color: $color-white-grey;
+    }
+}

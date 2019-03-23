@@ -1,0 +1,32 @@
+.qualities {
+
+    padding: 150px 0px;
+
+    &__container {
+         @include flex-box;
+
+    }
+
+    &__item {
+        width: 27%;
+
+    }
+
+    &__title {
+        padding-bottom: 30px;
+        font-size: $font-h3;
+        font-weight: 300;
+        letter-spacing: 0.06em;
+    }
+
+    &__description {
+        padding-bottom: 30px;
+        letter-spacing: 0.06em;
+        font-weight: 300;
+        line-height: 26px;
+    }
+
+    &__icon {
+        padding-right: 4px;
+    }
+}

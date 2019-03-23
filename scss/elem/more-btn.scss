@@ -1,0 +1,16 @@
+// More-btn
+
+.more-btn {
+
+    &__link {
+        font-size: $font-btn;
+        text-decoration: none;
+        color: $color-white;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+
+        &:hover {
+            color: $color-red;
+        }
+    }
+}

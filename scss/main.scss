@@ -1,0 +1,28 @@
+// variables
+@import "variables.scss";
+
+// mixins
+@import "mixins.scss";
+
+// common
+@import "main/common.scss";
+@import "main/grid.scss";
+
+// elements
+@import "elem/brands-skroll.scss";
+@import "elem/more-btn.scss";
+@import "elem/nav.scss";
+@import "elem/socials.scss";
+@import "elem/sort-nav.scss";
+
+// parts
+@import "parts/header.scss";
+@import "parts/qualities.scss";
+@import "parts/comments.scss";
+@import "parts/portfolio.scss";
+@import "parts/contact-form.scss";
+@import "parts/comments-skroll.scss";
+@import "parts/footer.scss";
+
+// media
+@import "media/media.scss";
